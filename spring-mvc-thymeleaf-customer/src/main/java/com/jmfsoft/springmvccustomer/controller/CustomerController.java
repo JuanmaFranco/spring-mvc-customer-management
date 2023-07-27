@@ -16,7 +16,7 @@ import java.util.List;
 @RequestMapping("/customers")
 public class CustomerController {
 
-    private CustomerService customerService;
+    private final CustomerService customerService;
 
     @Autowired
     public CustomerController(CustomerService customerService) {
@@ -25,7 +25,9 @@ public class CustomerController {
 
     @GetMapping("/list")
     public String listCustomers(Model theModel) {
+        List<Customer> customers = customerService.findAll();
         theModel.addAttribute("customers", customers);
         return "list-customers";
     }
+
 }
