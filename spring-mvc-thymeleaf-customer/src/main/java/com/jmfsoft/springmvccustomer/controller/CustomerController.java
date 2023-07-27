@@ -28,4 +28,12 @@ public class CustomerController {
         return "/customers/list-customers";
     }
 
+    @GetMapping("/showAddForm")
+    public String showAddForm(Model model) {
+        Customer customer = new Customer();
+        model.addAttribute("customer", customer);
+        return "customers/customer-form";
+    }
+
+
 }
