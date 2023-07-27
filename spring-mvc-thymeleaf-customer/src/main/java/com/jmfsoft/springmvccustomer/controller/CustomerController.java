@@ -25,7 +25,7 @@ public class CustomerController {
     public String listCustomers(Model theModel) {
         List<Customer> customers = customerService.findAll();
         theModel.addAttribute("customers", customers);
-        return "list-customers";
+        return "/customers/list-customers";
     }
 
 }
