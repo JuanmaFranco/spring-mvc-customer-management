@@ -23,7 +23,7 @@
                 <input type="hidden" th:field="*{id}"> <!-- Requerido para updates -->
 
                 <div class="row">
-                    <div class="col-md-5 mb-4"> <!-- Ancho de 5 columnas en pantallas medianas -->
+                    <div class="col-md-5 mb-4">
                         <label class="form-label">
                             <input type="text" th:field="*{firstName}" class="form-control w-100" placeholder="First Name"> <!-- Agregar clase "w-100" para ocupar todo el ancho -->
                         </label>
@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-5 mb-4"> <!-- Ancho de 5 columnas en pantallas medianas -->
+                    <div class="col-md-5 mb-4">
                         <label class="form-label">
                             <input type="text" th:field="*{lastName}" class="form-control w-100" placeholder="Last Name"> <!-- Agregar clase "w-100" para ocupar todo el ancho -->
                         </label>
@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-5 mb-4"> <!-- Ancho de 5 columnas en pantallas medianas -->
+                    <div class="col-md-5 mb-4">
                         <label class="form-label">
                             <input type="text" th:field="*{email}" class="form-control w-100" placeholder="Email"> <!-- Agregar clase "w-100" para ocupar todo el ancho -->
                         </label>
@@ -48,7 +48,7 @@
 
                 <div class="row">
                     <div class="col-md-2">
-                        <button type="submit" class="btn btn-info form-control">Save</button> <!-- No es necesario agregar "mb-4" aquí -->
+                        <button type="submit" class="btn btn-info form-control">Save</button>
                     </div>
                 </div>
 
@@ -58,7 +58,7 @@
 
     <hr />
 
-    <a th:href="@{/customers/list}" class="btn btn-danger col-md-2">Back to Customers List</a> <!-- Ancho de 2 columnas en pantallas medianas -->
+    <a th:href="@{/customers/list}" class="btn btn-danger col-md-2">Back to Customers List</a>
 </div>
 
 
