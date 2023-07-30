@@ -6,6 +6,8 @@ Customer Management CRUD Application is a comprehensive web application designed
 
 ## Overview
 
+![Overview](/images/overview.PNG)
+
 This application provides a user-friendly interface to perform essential CRUD (Create, Read, Update, Delete) operations on customer data. It enables businesses to efficiently organize, store, and manipulate customer information, enhancing their customer relationship management processes.
 
 ## Features
@@ -14,7 +16,7 @@ This application provides a user-friendly interface to perform essential CRUD (C
 - Add new customers to the database.
 - Update existing customer information.
 - Delete customers from the database.
-
+  
 ## Technologies Used
 
 - Java
@@ -23,7 +25,6 @@ This application provides a user-friendly interface to perform essential CRUD (C
 - MySQL
 - HTML
 - Bootstrap
-
 
 ## Requirements
 
@@ -70,7 +71,6 @@ mvn spring-boot:run
 ```bash
 http://localhost:8080/customers/list
 ```
-
 
 ## Using the Application
 
